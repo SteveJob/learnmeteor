@@ -6,7 +6,7 @@ export default class OrderList extends Component {
 	render() {
 		return (
 			<div>
-				this is order list!
+				<p>this is order list!</p>
 			</div>
 		)
 	}

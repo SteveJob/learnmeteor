@@ -9,47 +9,49 @@ Meteor.startup(() => {
 				orderCode: '100000001',
 				endPoint: 2,
 				userInfo: 'stevejobs',
-				createTime: new Date(),
+				createTime: new Date().getTime(),
 				sumMoney: 203,
 				payWay: 2,
-				orderState: 10
+				orderState: 10,
+				detailUrl: 'http://baidu.com'
 			}, {
 				orderCode: '100000002',
 				endPoint: 2,
 				userInfo: 'stevejobs',
-				createTime: new Date(),
+				createTime: new Date().getTime(),
 				sumMoney: 203,
 				payWay: 2,
-
-				orderState: 10
-
+				orderState: 10,
+				detailUrl: 'http://baidu.com'
 			}, {
 				orderCode: '100000003',
 				endPoint: 2,
 				userInfo: 'stevejobs',
-				createTime: new Date(),
+				createTime: new Date().getTime(),
 				sumMoney: 203,
 				payWay: 2,
-				orderState: 10
+				orderState: 10,
+				detailUrl: 'http://baidu.com'
 			}, {
 				orderCode: '100000004',
 				endPoint: 2,
 				userInfo: 'stevejobs',
-				createTime: new Date(),
+				createTime: new Date().getTime(),
 				sumMoney: 203,
 				payWay: 2,
-				orderState: 10
+				orderState: 10,
+				detailUrl: 'http://baidu.com'
 			}, {
 				orderCode: '100000005',
 				endPoint: 2,
 				userInfo: 'stevejobs',
-				createTime: new Date(),
+				createTime: new Date().getTime(),
 				sumMoney: 203,
 				payWay: 2,
-				orderState: 10
+				orderState: 10,
+				detailUrl: 'http://baidu.com'
 			}
 		]
-
 		orders.forEach( order => Orders.insert(order) )
 	}
 
