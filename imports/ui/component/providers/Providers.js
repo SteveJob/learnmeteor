@@ -86,6 +86,7 @@ export default class Providers extends Component {
 				this is provide page !
 				develop a new function!
 				no bug !
+				comment function!
 				<div className="child">{this.props.children}</div>
 				<Breadcrumb>
 					<Breadcrumb.Item><Icon type="home"/><a href="/">Home</a></Breadcrumb.Item>
