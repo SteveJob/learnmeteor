@@ -9,4 +9,5 @@ export default AppContainer = createContainer( (props) => {
 	return {
 		orders: Orders.find().fetch()
 	}
+
 }, App)
